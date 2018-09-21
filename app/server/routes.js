@@ -7,7 +7,7 @@ module.exports = function(app) {
         res.sendfile('./app/client/mainSite/main.html');
     });
 
-  app.get('/register', function(req, res){
+  app.get('/', function(req, res){
     res.sendfile('./app/client/index.html');
   });
 
